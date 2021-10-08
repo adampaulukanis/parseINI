@@ -1,0 +1,23 @@
+{
+  "name": "parseini",
+  "version": "1.0.0",
+  "description": "A simple program (module) to parse INI files",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha tests/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adampaulukanis/parseINI.git"
+  },
+  "author": "Adam Paulukanis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adampaulukanis/parseINI/issues"
+  },
+  "homepage": "https://github.com/adampaulukanis/parseINI#readme",
+  "devDependencies": {
+    "mocha": "^9.1.2"
+  },
+  "type": "module"
+}
