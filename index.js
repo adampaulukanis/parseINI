@@ -1,7 +1,7 @@
 /* jshint esversion: 6, node: true */
 'use strict';
 
-const parseINI = (string) => {
+const parseINI = (string = '') => {
   var currentSection = { name: null, fields: [] };
   var categories = [currentSection];
 
